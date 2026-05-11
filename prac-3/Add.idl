@@ -1,0 +1,7 @@
+module AddModule {
+
+    interface Add {
+
+        long addNumbers(in long a, in long b);
+    };
+};

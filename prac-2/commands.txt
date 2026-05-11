@@ -1,0 +1,9 @@
+1. Write all codes in files
+
+2. Compile all files -> javac *.java
+
+3. On 1st terminal -> rmiregistry 1099
+
+4. On 2nd terminal -> java Server
+
+5. On 3rd terminal -> java Client

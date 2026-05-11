@@ -1,0 +1,15 @@
+1. Download the jar file from MPJ Express Download
+
+2. Unzip the file
+
+3. Move file in the same directry where code is writen
+
+4. export MPJ_HOME=$(pwd)/mpj (Terminal)
+
+5. export PATH=$MPJ_HOME/bin:$PATH (Terminal)
+
+6. javac -cp ./mpj/lib/mpj.jar MPISum.java
+
+7. chmod +x ./mpj/bin/mpjrun.sh
+
+8. ./mpj/bin/mpjrun.sh -np 4 MPISum
